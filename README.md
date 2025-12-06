@@ -1,10 +1,7 @@
 
-
 # 3D Animated Login & Registration Form
 
 This is a web-based **3D animated login and registration form** built using HTML, CSS, and JavaScript. It uses a flipping card animation to switch between the login and registration views and stores user credentials in `localStorage` for basic authentication functionality.
-
----
 
 ## 📁 Files Included
 
@@ -12,7 +9,6 @@ This is a web-based **3D animated login and registration form** built using HTML
 * `style.css` – Provides styling for the background, card design, 3D animations, form inputs, buttons, and responsiveness.
 * `script.js` – Handles the card flipping functionality and localStorage-based login and registration logic.
 
----
 
 ## 💡 Features
 
@@ -23,8 +19,6 @@ This is a web-based **3D animated login and registration form** built using HTML
 * Animated SVG avatar that floats
 * Responsive for mobile and desktop views
 
----
-
 ## 🚀 How to Use
 
 1. Open `index.html` in any browser.
@@ -32,16 +26,12 @@ This is a web-based **3D animated login and registration form** built using HTML
 3. Switch to the **Login** view and enter the same credentials.
 4. If matched, it shows “Login successful!”; otherwise, an error message appears.
 
----
-
 ## 🎨 Styling Highlights (from `style.css`)
 
 * `linear-gradient` backgrounds
 * Floating SVG avatar using `@keyframes float`
 * Card rotation with `transform-style: preserve-3d`
 * Responsive design for screen widths below 500px
-
----
 
 ## 🧠 JavaScript Logic (from `script.js`)
 
@@ -56,20 +46,9 @@ This is a web-based **3D animated login and registration form** built using HTML
   * Compares entered values
   * Shows success or error alert
 
----
-
-## 📱 Responsive Design
-
-* Card width and height adjust using `@media (max-width: 500px)`
-* Padding and layout scale smoothly for smaller devices
-
----
-
 ## 🔐 Note
 
 This is a **frontend-only project** using `localStorage` for demo purposes. It is **not suitable for production** or real authentication systems as it lacks encryption and backend validation.
-
----
 
 ## ✅ Author
 
