@@ -46,10 +46,6 @@ This is a web-based **3D animated login and registration form** built using HTML
   * Compares entered values
   * Shows success or error alert
 
-## 🔐 Note
-
-This is a **frontend-only project** using `localStorage` for demo purposes. It is **not suitable for production** or real authentication systems as it lacks encryption and backend validation.
-
 ## ✅ Author
 
 Created by **Rakesh L N**
